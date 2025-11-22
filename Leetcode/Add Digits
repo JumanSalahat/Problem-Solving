@@ -1,3 +1,4 @@
+// إعادة صياغة السؤال : جمع الأرقام حتى يبقى رقم واحد
 class Solution {
 public:
     int addDigits(int num) {
