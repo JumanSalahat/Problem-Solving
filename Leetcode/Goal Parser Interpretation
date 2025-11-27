@@ -7,6 +7,7 @@ public:
         if(command[i]=='G') { result+='G'; i++; }
         else if(command[i]=='(' && command[i+1]==')') { result+='o'; i+=2; }
         else if(command[i]=='(' && command[i+1]=='a' && command[i+2]=='l' && command[i+3]==')') { result+="al"; i+=4; }
+        // بنقدر نحكي -> else -> بدون ما نكتب الشرط ، لإنه السؤال ذكر انه السلسلة فقط تحتوي على هذه العناصر الثلاثة
        } 
        return result;
     }
