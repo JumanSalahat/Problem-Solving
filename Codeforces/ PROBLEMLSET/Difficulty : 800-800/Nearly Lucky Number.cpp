@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 // Is (n) nearly lucky ?
 // A number is nearly lucky : if the (count of digits) "4" and "7" inside it .. is itself a lucky number
 // Note : Being lucky doesn’t guarantee being nearly lucky — only the count of lucky digits matters
