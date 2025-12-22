@@ -1,4 +1,4 @@
-// نستخدم مبدأ XOR
+// نستخدم مبدأ -> XOR
 class Solution {
 public:
     int hammingDistance(int x, int y) {
