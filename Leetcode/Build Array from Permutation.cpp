@@ -1,3 +1,4 @@
+// Time complexity of this solution is -> O(n)
 class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
@@ -10,3 +11,5 @@ public:
         return ans;
     }
 };
+
+// فكّري بسؤال -> follow up -> نكتب الحل بتعقيد زمني -> 1 -> O(1)
