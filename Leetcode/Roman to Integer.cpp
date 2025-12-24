@@ -11,7 +11,7 @@ public:
             else  if(s[i]=='X' && s[i+1]=='C')  { c+=90; i++; }
             else  if(s[i]=='C' && s[i+1]=='D') { c+=400; i++; }
             else  if(s[i]=='C' && s[i+1]=='M') { c+=900;  i++; }        
-
+   
             else if(s[i]=='I') c++;
             else  if(s[i]=='V') c+=5;
             else  if(s[i]=='X') c+=10;
