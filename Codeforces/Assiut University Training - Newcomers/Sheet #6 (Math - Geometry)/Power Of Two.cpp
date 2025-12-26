@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {   
-   int n;
+   long long n;
    cin>>n;
    double x=log2(n);
    if(x-int(x)==0) cout<<"YES";
