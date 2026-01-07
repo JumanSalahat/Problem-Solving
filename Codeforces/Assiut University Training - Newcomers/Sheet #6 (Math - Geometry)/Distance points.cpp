@@ -8,6 +8,6 @@ int main()
     long long b = y2 - y1;
     long long c = a*a + b*b;
     double ans = sqrt(c);
-    cout<<fixed << setprecision(6)<<ans;
+    cout<<fixed << setprecision(6)<<ans; //مهم 
     return 0;
 }
