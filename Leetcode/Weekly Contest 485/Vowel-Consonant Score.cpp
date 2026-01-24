@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int vowelConsonantScore(string s) {
+      int v=0,c=0;
+      for(int i=0;i<s.size();i++)
+      {
+        if(s[i] =='a' || s[i] =='e' || s[i] =='i' || s[i] =='o' || s[i] =='u')
+        {
+           v++;
+        } 
+
+         else if(s[i]>='a' && s[i]<='z') c++;
+      }
+
+      int ans=0;
+      if(c>0) ans= v/c;
+
+      return ans;
+    }
+};
