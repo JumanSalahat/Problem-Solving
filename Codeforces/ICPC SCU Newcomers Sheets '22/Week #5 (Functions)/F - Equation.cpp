@@ -2,9 +2,9 @@
 using namespace std;
 
 // x^0 = 1 --> so , x^0 - 1 =0
-int Equation(int x,int n)
+long long Equation(int x,int n)
 {
-    int sum=0;
+    long long sum=0;
     for(int i=1;i<=n;i++)
     {
         if(i%2==0) sum+=pow(x,i);
