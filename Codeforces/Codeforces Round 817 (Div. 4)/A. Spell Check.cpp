@@ -7,7 +7,7 @@ int main() {
     {
         short n; cin>>n;
         string s; cin>>s;
-        sort(s.begin(),s.end()); // إإذا الكلمة صحيحة ، ترتيبها بكون --> Timru
+        sort(s.begin(),s.end()); // إذا الكلمة صحيحة ، ترتيبها بكون --> Timru
         if(s=="Timru") cout<<"YES\n";
         else cout<<"NO\n";
     }
